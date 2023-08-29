@@ -1,4 +1,9 @@
 {
+
+"engines": {
+    "node": ">=14.20.1"
+  },
+
   "name": "habit-tracker",
   "version": "1.0.0",
   "description": "skill test project",
