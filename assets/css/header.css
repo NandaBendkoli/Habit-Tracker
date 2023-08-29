@@ -1,0 +1,85 @@
+
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+
+
+.nav {
+    background-color: #dbe5e7;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    transition: transform 0.3s ease; /* Add transition for smooth movement */
+  }
+  
+  .nav:hover {
+    transform: translateY(-3px); /* Move the navbar up slightly when hovered */
+  }
+  
+.title a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #130202;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.userPresent, .noUser {
+    display: flex;
+    align-items: center;
+}
+
+.nameOfUser {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.logOut a {
+    text-decoration: none;
+    color: #e9f2ff;
+}
+
+.noUser ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.noUser li {
+    margin-right: 15px;
+}
+
+.noUser a {
+    text-decoration: none;
+    color: #130202;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+/* Styling for the arrow icon */
+.fa-arrow-right-from-bracket {
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+/* Hover effect */
+.noUser a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

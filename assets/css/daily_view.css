@@ -1,0 +1,69 @@
+
+/* Daily view habit container styles */
+.container.daily-view {
+    top: 23px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    display: none;
+}
+.container.daily-view:hover{
+    background-color: #dbe5e7;
+    transform: translateY(-3px);
+}
+
+.habit-title h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.habit-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mark-status-daily {
+    font-size: 18px;
+    color: #555;
+    margin-right: 10px;
+}
+
+.habit-desc p {
+    font-size: 16px;
+    color: #666;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.clickIt,
+.closeIt {
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.clickIt:hover,
+.closeIt:hover {
+    color: #e74c3c; /* Change this color to match your design */
+}
+
+.fa-pencil {
+    color: #e74c3c; /* Change this color to match your design */
+}
+
+.fa-trash-can {
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.fa-trash-can:hover {
+    color: #e74c3c; /* Change this color to match your design */
+}

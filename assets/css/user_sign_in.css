@@ -1,0 +1,78 @@
+
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  #e5ddb3;
+}
+
+/* Sign-in container styles */
+.signin {
+    background-color: #dbe5e7;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 100px;
+}
+
+.signin h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Sign-in form styles */
+.form input {
+    display: block;
+    width: 95%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 3px solid #ccc;
+    border-radius: 3px;
+}
+
+.form button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+@keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+.form button:hover {
+    background-color: #53ec45;
+    animation: blink 0.5s infinite; /* Apply the blink animation */
+}
+
+/* Forget password and sign-up links */
+.signin p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.signin a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.signin a:hover {
+    color: #0056b3;
+}

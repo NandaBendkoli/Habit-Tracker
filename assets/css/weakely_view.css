@@ -1,0 +1,62 @@
+
+
+.container.daily-view {
+    background-color: #c22a2a;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    display: none;
+  }
+  
+  .habit-title h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .habit-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .mark-status-daily {
+    font-size: 18px;
+    color: #777;
+  }
+  
+  .habit-desc p {
+    color: #444;
+    margin: 10px 0;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #e74c3c;
+  }
+  
+  .menu a:hover {
+    color: #c0392b;
+  }
+  
+  .form-popup {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+  }
+  

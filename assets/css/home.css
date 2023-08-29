@@ -1,0 +1,278 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("/img/bg1.jpg");
+  background-size: cover;
+  /* Make the background image cover the entire viewport */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* Keep the background image fixed when scrolling */
+}
+
+
+
+.welcome-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  overflow: hidden;
+  /* Prevent background color from extending outside */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+
+.welcome-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  overflow: hidden;
+  /* Prevent background color from extending outside */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+
+.welcome-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+  overflow: hidden;
+  /* Prevent background color from extending outside */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #a4937e;
+  transition: background-color 0.3s ease;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  box-shadow: 20px 30px 20px rgba(0, 0, 0, 0.2);
+  /* Added box shadow */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  /* Added box shadow transition */
+}
+
+.welcome-title {
+
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+}
+
+/* Apply the hover effect */
+.welcome-container:hover {
+  background-color: #dbe5e7;
+  transform: translateY(-3px);
+}
+
+.welcome-button {
+  display: block;
+  margin: 0 auto;
+  padding: 24px 37px;
+  background-color: #937865;
+  color: #fff;
+  border: none;
+  border-radius: 17px;
+  cursor: pointer;
+  color: #000000;
+  font-size: 19px;
+  font-weight: bold;
+  font-family: cursive;
+
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  /* Added transform transition */
+
+}
+
+/* Add this to your CSS file */
+
+@keyframes blink {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.welcome-button:hover {
+  background-color: #dbe5e7;
+  animation: blink 0.5s infinite;
+  /* Apply the blink animation */
+}
+
+/* from now this the habit tracker  */
+
+/* No habits added section styles */
+#noHabitText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+  overflow: hidden;
+  /* Prevent background color from extending outside */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #a4937e;
+  transition: background-color 0.3s ease;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  box-shadow: 20px 30px 20px rgba(0, 0, 0, 0.2);
+  /* Added box shadow */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+}
+
+#noHabitText:hover {
+  background-color: #dbe5e7;
+  transform: translateY(-3px);
+}
+
+/* add habit button */
+
+
+#open-btn-fixed {
+  display: block;
+  margin: 0 auto;
+  /* Center the button */
+  padding: 10px 20px;
+  /* Add padding */
+  background-color: #8e633c;
+  color: #0f0101;
+  border: 1px solid #8e633c;
+  /* Add a border */
+  border-radius: 8px;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+  /* Add transitions */
+  font-weight: bold;
+  font-size: 17px;
+
+}
+
+#open-btn-fixed:hover {
+  background-color: #bac1c9;
+  opacity: 0.8;
+  /* Reduce opacity on hover */
+
+}
+#open-btn{
+  display: block;
+  margin: 0 auto;
+  /* Center the button */
+  padding: 10px 20px;
+  /* Add padding */
+  background-color: #8e633c;
+  color: #0f0101;
+  border: 1px solid #8e633c;
+  /* Add a border */
+  border-radius: 8px;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+  /* Add transitions */
+  font-weight: bold;
+  font-size: 17px;
+  top: 23px;
+}
+#open-btn{
+  background-color: #bac1c9;
+  opacity: 0.8;
+}
+@keyframes blink {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Form popup styles */
+.form-popup {
+display: none;
+  position: fixed;
+  top: 70%;
+  left: 50%;
+  width: 400px;
+  transform: translate(-50%, -50%);
+  background-color: #dbe5e7;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+
+.form-container {
+  text-align: center;
+}
+
+.form-container input {
+  display: block;
+  width: 96%;
+  margin-bottom: 10px;
+  padding: 12px;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+}
+
+#cancel-btn,
+#save-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#cancel-btn {
+  background-color: #ccc;
+  margin-right: 10px;
+}
+
+#save-btn {
+  background-color: #007bff;
+  color: #fff;
+}
+
+#save-btn:hover {
+  background-color: #0056b3;
+}
+
+
+/* Button to toggle view styles */
+#change-view {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#change-view:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .welcome-title {
+    font-size: 20px;
+  }
+}
